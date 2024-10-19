@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/navinavina/Portfolio.git/static/css/main.4185698e.css",
+    "main.js": "/navinavina/Portfolio.git/static/js/main.27fc7d66.js",
+    "static/js/453.aff6efff.chunk.js": "/navinavina/Portfolio.git/static/js/453.aff6efff.chunk.js",
+    "index.html": "/navinavina/Portfolio.git/index.html",
+    "main.4185698e.css.map": "/navinavina/Portfolio.git/static/css/main.4185698e.css.map",
+    "main.27fc7d66.js.map": "/navinavina/Portfolio.git/static/js/main.27fc7d66.js.map",
+    "453.aff6efff.chunk.js.map": "/navinavina/Portfolio.git/static/js/453.aff6efff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4185698e.css",
+    "static/js/main.27fc7d66.js"
+  ]
+}
