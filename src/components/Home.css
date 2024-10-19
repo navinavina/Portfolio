@@ -1,0 +1,30 @@
+/* Home.css */
+
+.home-container {
+    font-family: Arial, sans-serif; /* Your preferred font */
+}
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Your background image */
+    height: 100vh; /* Full height for the hero section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white; /* Set the text color to white for visibility */
+    padding: 20px; /* Padding for the hero section */
+    position: relative; /* Position relative for potential overlay */
+    z-index: 1; /* Ensure it appears above other elements */
+}
+
+.section {
+    padding: 60px 20px; /* Padding for sections */
+    min-height: 100vh; /* Minimum height for each section */
+    background: #f1f1f1; /* Background color for sections */
+    border-bottom: 1px solid #ddd; /* Divider line */
+}
+.created-by {
+    margin-top: 1rem; /* Space above the created by text */
+    font-size: 0.9rem; /* Smaller font size */
+    color: #6c757d; /* Light gray color for text */
+}

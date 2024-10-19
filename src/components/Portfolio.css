@@ -1,0 +1,88 @@
+/* portfolio.css */
+
+.portfolio {
+    padding: 50px 20px; /* Padding for the portfolio section */
+    background-image: url('https://img.freepik.com/free-vector/abstract-white-tone-memphis-social-background_53876-113860.jpg'); /* Background image for the section */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+}
+
+.portfolio-content {
+    max-width: 1200px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the content */
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    border-radius: 8px; /* Rounded corners for the content box */
+    padding: 40px; /* Padding inside the white box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.portfolio-title {
+    font-size: 2.5rem; /* Title size */
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Center the title */
+}
+
+.image {
+    margin-bottom: 40px; /* Space below the image */
+}
+
+.image img {
+    max-width: 100%; /* Responsive image */
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; /* Wrap cards if needed */
+    justify-content: center; /* Center the cards */
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    background-color: white; /* Card background */
+    border: 1px solid #ccc; /* Border for card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    width: 250px; /* Fixed width for cards */
+    height: 300px; /* Fixed height for uniformity */
+    display: flex; /* Use flexbox for content alignment */
+    flex-direction: column; /* Align items vertically */
+    justify-content: space-between; /* Space out content evenly */
+    transition: transform 0.3s; /* Animation on hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.card h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5rem; /* Card title size */
+}
+
+.card p {
+    margin: 10px 0; /* Space between text */
+    flex-grow: 1; /* Allow paragraph to grow to fill space */
+}
+
+.card a {
+    text-decoration: none;
+    color: #007BFF; /* Link color */
+    font-weight: bold; /* Bold text for links */
+}
+
+.card a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Take up more width on smaller screens */
+        height: auto; /* Let height adjust based on content */
+    }
+
+    .portfolio {
+        padding: 30px 10px; /* Reduce padding on smaller screens */
+    }
+}
