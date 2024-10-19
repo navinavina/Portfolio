@@ -1,3 +1,4 @@
+
 body, html {
     height: 100%;
     margin: 0;
@@ -26,3 +27,33 @@ body, html {
     width: 30px;
     height: auto;
 }
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;  /* Use flexbox for centering the card */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+}
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    border-radius: 10px; /* Rounded corners for card effect */
+    width: 300px; /* Set a fixed width for the card */
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px; /* Add spacing at the top */
+}
+
+.social-icons a img {
+    width: 30px;
+    height: auto;
+}
+

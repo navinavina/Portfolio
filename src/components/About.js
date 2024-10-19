@@ -1,3 +1,4 @@
+
 // About.js
 import React from 'react';
 import './About.css'; // Importing CSS for styling
@@ -67,3 +68,4 @@ const About = () => {
 };
 
 export default About;
+

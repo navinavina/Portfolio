@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/navinavina/Portfolio/static/css/main.4185698e.css",
+    "main.js": "/navinavina/Portfolio/static/js/main.b0599c39.js",
+    "static/js/453.aff6efff.chunk.js": "/navinavina/Portfolio/static/js/453.aff6efff.chunk.js",
+    "index.html": "/navinavina/Portfolio/index.html",
+    "main.4185698e.css.map": "/navinavina/Portfolio/static/css/main.4185698e.css.map",
+    "main.b0599c39.js.map": "/navinavina/Portfolio/static/js/main.b0599c39.js.map",
+    "453.aff6efff.chunk.js.map": "/navinavina/Portfolio/static/js/453.aff6efff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4185698e.css",
+    "static/js/main.b0599c39.js"
+  ]
+}
